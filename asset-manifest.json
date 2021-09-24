@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/cars-dealer/static/css/main.fbeda083.chunk.css",
-    "main.js": "/cars-dealer/static/js/main.ed082c3b.chunk.js",
-    "main.js.map": "/cars-dealer/static/js/main.ed082c3b.chunk.js.map",
+    "main.js": "/cars-dealer/static/js/main.1e306b81.chunk.js",
+    "main.js.map": "/cars-dealer/static/js/main.1e306b81.chunk.js.map",
     "runtime-main.js": "/cars-dealer/static/js/runtime-main.71d611a8.js",
     "runtime-main.js.map": "/cars-dealer/static/js/runtime-main.71d611a8.js.map",
     "static/js/2.e5196c66.chunk.js": "/cars-dealer/static/js/2.e5196c66.chunk.js",
@@ -69,6 +69,6 @@
     "static/js/runtime-main.71d611a8.js",
     "static/js/2.e5196c66.chunk.js",
     "static/css/main.fbeda083.chunk.css",
-    "static/js/main.ed082c3b.chunk.js"
+    "static/js/main.1e306b81.chunk.js"
   ]
 }
