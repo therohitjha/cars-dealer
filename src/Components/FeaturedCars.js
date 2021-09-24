@@ -11,7 +11,7 @@ export default class FeaturedCars extends Component {
   render() {
     let { loading, cars } = this.context;
     const settings = {
-      dots: true,
+      dots: false,
       infinite: true,
       speed: 500,
       slidesToShow: 3,
@@ -23,7 +23,7 @@ export default class FeaturedCars extends Component {
             slidesToShow: 3,
             slidesToScroll: 1,
             infinite: true,
-            dots: true
+            dots: false
           }
         },
         {
