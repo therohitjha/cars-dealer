@@ -1,11 +1,10 @@
-import React from 'react'
-import CarsFilter from './CarsFilter'
-import CarsList from './CarsList'
-import { withCarConsumer } from '../context'
-import Loading from './Loading'
+import React, { Suspense, lazy } from "react";
+import CarsFilter from "./CarsFilter";
+import { withCarConsumer } from "../context";
+import Loading from "./Loading";
+const CarsList = lazy(() => import("./CarsList"));
 
 function CarsContainer({ context }) {
-
   const { loading, sortedCars, cars } = context;
 
   if (loading) {
@@ -13,13 +12,11 @@ function CarsContainer({ context }) {
   }
 
   return (
-    <>
+    <Suspense fallback={<div>Loading...</div>}>
       <CarsFilter cars={cars} />
       <CarsList cars={sortedCars} />
-    </>
+    </Suspense>
   );
-
 }
 
-
-export default withCarConsumer(CarsContainer)
+export default withCarConsumer(CarsContainer);
