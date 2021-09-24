@@ -12,7 +12,7 @@ function CarsContainer({ context }) {
   }
 
   return (
-    <Suspense fallback={<div>Loading...</div>}>
+    <Suspense fallback={<Loading />}>
       <CarsFilter cars={cars} />
       <CarsList cars={sortedCars} />
     </Suspense>
